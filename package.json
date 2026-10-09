@@ -1,0 +1,21 @@
+{
+  "name": "frpcclient",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "mygo dev",
+    "build": "mygo build",
+    "generate": "mygo generate",
+    "dev:web": "vite",
+    "build:web": "tsc --noEmit && vite build",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "mygo-runtime": "^0.3.5"
+  },
+  "devDependencies": {
+    "mygo-cli": "^0.3.5",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.4"
+  }
+}

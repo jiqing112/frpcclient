@@ -1,0 +1,8 @@
+node_modules/
+/dist/
+/build/
+/.mygo/
+mygo_windows_*.syso
+
+# frp 客户端二进制：请自行从 https://github.com/fatedier/frp/releases 下载
+frpc.exe
